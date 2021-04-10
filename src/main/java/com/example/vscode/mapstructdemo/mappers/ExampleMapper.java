@@ -11,6 +11,5 @@ public interface ExampleMapper {
  
     ExampleMapper INSTANCE = Mappers.getMapper( ExampleMapper.class );
  
-    // @Mapping(source = "numberOfSeats", target = "seatCount")
     Target dtoToDomain(Source dto);
 }
